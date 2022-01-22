@@ -7,5 +7,5 @@ Now it is developed and maintained by the groups of Professors <a href="https://
 The main-release repository is `MFC` and the development repo. is `MFC-develop`.
 There is a [user guide](https://github.com/MFlowCode/MFC/raw/master/doc/MFC_user_guide.pdf) and [documentation](https://mflowcode.github.io/simulation/namespaces.html) to get you started.
 Another good resource is the `README.md` in the repositories. 
-* MFC has many nice features (in our view). For example, it scales to __tens of thousands__ of GPUs with ideal weak scaling.
+* MFC has many nice features (in our view). For example, it scales to _tens of thousands_ of GPUs with ideal weak scaling.
 * If you have questions, you can contact the maintainers (e.g., [Spencer Bryngelson](mailto:shb@gatech.edu)) and/or request to join the MFC Slack workspace. 
