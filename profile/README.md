@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.png" alt="MFC Banner" width="500"/></center>
+</p>
+
 ## Welcome to the MFC Github organization! 👋
 
 MFC simulates compressible multi-phase flows at extreme computational scales.
