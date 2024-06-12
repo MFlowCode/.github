@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="profile/banner.png" alt="MFC Banner" width="500"/></center>
+  <img src="banner.png" alt="MFC Banner" width="500"/></center>
 </p>
 
 ## Welcome to the MFC Github organization! 👋
