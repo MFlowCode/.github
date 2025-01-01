@@ -4,13 +4,17 @@
 
 ## Welcome to the MFC Github organization! 👋
 
-MFC simulates compressible multi-phase flows at extreme (exascale!) computational scales.
-* MFC nucleated from the Colonius research group at Caltech.
-These days, development and maintenance have spread. 
-  * The  <a href="https://comp-physics.group">Bryngelson Group</a> at Georgia Tech maintains MFC and its algorithmic and HPC aspects.
-  * Many new physics features often come from close collaborators, like the groups of <a href="https://colonius.caltech.edu/">Tim Colonius</a> (Caltech) and <a href="https://vivo.brown.edu/display/mrodri97">Mauro Rodriguez</a> (Brown).
+MFC simulates all-Mach many-phase/physics flows at exascale+ computational scales.
+* MFC nucleated from Tim Colonius's group at Caltech. These days, development and maintenance have spread. 
+  * The  <a href="https://comp-physics.group">Bryngelson Group</a> at Georgia Tech maintains MFC and leads its algorithmic and HPC focii.
+  * Close collaborators contribute physics features, including the groups of Profs. <a href="https://colonius.caltech.edu/">Tim Colonius</a> (Caltech), <a href="https://vivo.brown.edu/display/mrodri97">Mauro Rodriguez</a> (Brown), <a href="https://www.wpi.edu/people/faculty/agnanaskandan">Aswin Gnanaskandan</a> (WPI), and others.
 * The MFC [repository](https://github.com/MFlowCode/MFC) is pinned below.
-* MFC has many features. See them [here](https://github.com/MFlowCode/MFC/blob/master/README.md#what-else-can-this-thing-do). For example, it scales ideally to _tens of thousands_ of NVIDIA and AMD GPUs.
-* We have a [nice website](https://mflowcode.github.io/) with some visualizations
-  * It includes [documentation](https://mflowcode.github.io/documentation/index.html) to get you started!
+* MFC has _many_ features, spanning the CS, computational math, and engineering spectrum. See them [here](https://github.com/MFlowCode/MFC/blob/master/README.md#what-else-can-this-thing-do).
+  * CS: Ideal scaling to 10K+ NVIDIA and AMD GPUs on the latest flagship systems (El Capitan, Frontier, etc.)
+  * Computational math: Information geometric regularization (IGR), generalized characteristic boundary conditions, ...
+  * Engineering: Phase change and relaxation, soft materials, FSI, surface tension, sub-grid dispersions, ...
+* It is included in early flagship computer access programs worldwide, current and past.
+  * These include(d) the OLCF Frontier, LLNL El Capitan, JSC JUPITER, and others.
+* MFC is a SPEChpc benchmark canddidate
+* We have a [nice website](https://mflowcode.github.io/) with some visualizations and [documentation](https://mflowcode.github.io/documentation/index.html) to get you started!
 * If you have questions, join the discussion on the [MFC Slack workspace](https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw) or contact the maintainers (e.g., [Spencer Bryngelson](mailto:shb@gatech.edu))!
