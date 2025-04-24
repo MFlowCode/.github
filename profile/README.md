@@ -2,7 +2,7 @@
   <img src="banner.png" alt="MFC Banner" width="500"/></center>
 </p>
 
-## Welcome to the MFC Github organization! 👋
+## Welcome to the MFC GitHub organization! 👋
 
 MFC simulates all-Mach many-phase/physics flows at exascale+ computational scales.
 * MFC nucleated from Tim Colonius's group at Caltech. These days, development and maintenance have spread. 
