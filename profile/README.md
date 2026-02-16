@@ -1,20 +1,33 @@
 <p align="center">
-  <img src="banner.png" alt="MFC Banner" width="500"/></center>
+  <img src="banner.png" alt="MFC Banner" width="500"/>
 </p>
 
-## Welcome to the MFC GitHub organization! 👋
+<h3 align="center">Exascale multiphase flow solver - 2025 Gordon Bell Prize Finalist</h3>
 
-MFC simulates all-Mach many-phase/physics flows at exascale+ computational scales.
-* MFC nucleated from Tim Colonius's group at Caltech. These days, development and maintenance have spread. 
-  * The  <a href="https://comp-physics.group">Bryngelson Group</a> at Georgia Tech maintains MFC and leads its algorithmic and HPC focus.
-  * Close collaborators contribute physics features, including the groups of Profs. <a href="https://colonius.caltech.edu/">Tim Colonius</a> (Caltech), <a href="https://vivo.brown.edu/display/mrodri97">Mauro Rodriguez</a> (Brown), <a href="https://www.wpi.edu/people/faculty/agnanaskandan">Aswin Gnanaskandan</a> (WPI), and others.
-* The MFC [repository](https://github.com/MFlowCode/MFC) is pinned below.
-* MFC has _many_ features, spanning the CS, computational math, and engineering spectrum. See them [here](https://github.com/MFlowCode/MFC/blob/master/README.md#what-else-can-this-thing-do).
-  * CS: Ideal scaling to 10K+ NVIDIA and AMD GPUs on the latest flagship systems (El Capitan, Frontier, CSCS Alps, Summit, etc.)
-  * Computational math: Information geometric regularization (IGR), generalized characteristic boundary conditions, ...
-  * Engineering: Phase change and relaxation, MHD, soft materials, FSI, surface tension, sub-grid dispersions, ...
-* It is included in early flagship computer access programs worldwide, current and past.
-  * These include(d) the OLCF Frontier, LLNL El Capitan, JSC JUPITER, CSCS Alps, and others.
-* MFC is a SPEChpc benchmark candidate
-* We have a [nice website](https://mflowcode.github.io/) with some visualizations and [documentation](https://mflowcode.github.io/documentation/index.html) to get you started!
-* If you have questions, join the discussion on the [MFC Slack workspace](https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw) or contact the maintainers (e.g., [Spencer Bryngelson](mailto:shb@gatech.edu))!
+<p align="center">
+  <a href="https://github.com/MFlowCode/MFC">
+    <img src="https://img.shields.io/github/stars/MFlowCode/MFC?style=social" alt="GitHub stars"/>
+  </a>
+</p>
+
+**MFC** conducted the [largest known public CFD simulation](https://arxiv.org/abs/2505.07392) at **200 trillion grid points** on **43,000+ AMD APUs** on [El Capitan](https://hpc.llnl.gov/hardware/compute-platforms/el-capitan) and **33,000+ AMD GPUs** on [Frontier](https://www.olcf.ornl.gov/frontier/). It is written in ~40K lines of Fortran with [Fypp](https://fypp.readthedocs.io/en/stable/fypp.html) metaprogramming.
+
+### Get started
+
+- **Repository**: [MFlowCode/MFC](https://github.com/MFlowCode/MFC) (pinned below)
+- **Documentation**: [mflowcode.github.io](https://mflowcode.github.io/documentation/index.html)
+- **Quick start**: [Getting Started guide](https://mflowcode.github.io/documentation/getting-started.html) or [open a Codespace](https://github.com/codespaces/new?hide_repo_select=true&ref=master&repo=MFlowCode%2FMFC)
+
+### Capabilities
+
+- **Exascale GPU performance** - Ideal weak scaling on El Capitan (MI300A), Frontier (MI250X), and Alps (GH200). Near compute-roofline. [Compile-time case optimization](https://mflowcode.github.io/documentation/running.html) for up to 10x speedup.
+- **Multi-phase/physics** - 4, 5, and 6-equation models, phase change, surface tension, bubble dynamics, MHD, relativistic MHD, hyper/hypoelasticity, chemistry, and Euler-Lagrange particle tracking.
+- **Portable** - NVIDIA and AMD GPUs, CPUs, laptops to exascale. Docker, Codespaces, Homebrew, and [16+ HPC system templates](https://mflowcode.github.io/documentation/running.html).
+
+### Community
+
+MFC nucleated from [Tim Colonius's group](https://colonius.caltech.edu/) at Caltech. The [Bryngelson Group](https://comp-physics.group) at Georgia Tech leads development, with close collaborators at [Brown](https://vivo.brown.edu/display/mrodri97) (Rodriguez), [WPI](https://www.wpi.edu/people/faculty/agnanaskandan) (Gnanaskandan), and others.
+
+MFC is a SPEChpc benchmark candidate, part of the JSC JUPITER Early Access Program, and used OLCF Frontier and LLNL El Capitan early access systems.
+
+Questions? Join the [MFC Slack](https://join.slack.com/t/mflowcode/shared_invite/zt-y75wibvk-g~zztjknjYkK1hFgCuJxVw) or contact [Spencer Bryngelson](mailto:shb@gatech.edu).
