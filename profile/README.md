@@ -17,6 +17,7 @@
 - **Repository**: [MFlowCode/MFC](https://github.com/MFlowCode/MFC) (pinned below)
 - **Documentation**: [mflowcode.github.io](https://mflowcode.github.io/documentation/index.html)
 - **Quick start**: [Getting Started guide](https://mflowcode.github.io/documentation/getting-started.html) or [open a Codespace](https://github.com/codespaces/new?hide_repo_select=true&ref=master&repo=MFlowCode%2FMFC)
+- **Videos**: [YouTube channel](https://www.youtube.com/@MFCode) - simulation visualizations and demos
 
 ### Capabilities
 
